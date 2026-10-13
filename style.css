@@ -107,7 +107,7 @@ h1, h2, h3, h4 {
 
 .btn-primary {
   background-color: var(--light-pink);
-  color: var(--espresso); /* WCAG AA Contrast Compliant */
+  color: var(--sage-green); 
   box-shadow: var(--shadow-subtle);
 }
 
@@ -320,6 +320,7 @@ a:hover {
 .cards-grid {
   display: flex;
   gap: 25px;
+height: 40%;
   margin-bottom: 50px;
 }
 
@@ -433,7 +434,7 @@ a:hover {
 
 /* Five-star text rating styling */
 .star-rating {
-  color: #D97724; /* Warm caramel amber color for visible stars */
+  color: #D97724; 
   font-size: 1.3rem;
   margin-bottom: 15px;
   letter-spacing: 2px;
@@ -567,7 +568,7 @@ a:hover {
    ========================================================= */
 
 .site-footer {
-  background-color: var(--light-pink); /* Dark espresso background */
+  background-color: var(--light-pink);
   color: var(--cream); /* Cream text */
   padding: 50px 20px 25px 20px;
 }
