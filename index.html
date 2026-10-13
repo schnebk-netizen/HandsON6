@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport tag to ensure proper scaling on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maple & Bean Coffee House | Kaileigh Schneberger</title>
+
+    <!-- Google Fonts for Playfair Display (Headings) and Open Sans (Body Text) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Linking external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+    <!-- =========================================================
+         HEADER & NAVIGATION (ACCESSIBILITY: ARIA-LABEL ADDED)
+         ========================================================= -->
+    <header class="site-header">
+        <div class="header-container">
+            <!-- Brand Logo / Name -->
+            <div class="logo">
+                <a href="#top">
+                    <span class="brand-title">Kaileigh Schneberger</span>
+                    <span class="brand-sub">Field & Frame Co.</span>
+                </a>
+            </div>
+
+            <!-- Main Navigation Links with aria-label for screen reader accessibility -->
+            <nav class="main-nav" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Visit Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- =========================================================
+         MAIN CONTENT AREA
+         ========================================================= -->
+    <main>
+
+        <!-- 1. HOME / HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <!-- Heading level 1 for proper document hierarchy -->
+                    <h1>Kaileigh Schneberger</h1>
+                    <p class="tagline">Crafting Stories Through Lens & Design in and around Hamilton, Ohio</p>
+                    <p class="hero-welcome">
+                        Welcome to Maple & Bean Coffee House—a cozy local spot powered by creative media, 
+                        artisan coffee, and passion. Explore my media showcase and local services below!
+                    </p>
+                    <a href="#work" class="btn btn-primary">See my work</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT US SECTION -->
+        <section id="about" class="about-section container">
+            <!-- Section title: h2 follows h1 in logical heading order -->
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Bridging sports media, photography, and college life.</p>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Hi, I'm Kaileigh!</h3>
+                    <p>
+                        I am a senior at <strong>Miami University</strong> in Oxford, Ohio, studying 
+                        <strong>Sports Media and Communications</strong>. Alongside my studies, I run 
+                        <strong>Field & Frame Co.</strong>, a small business specializing in sports media, 
+                        brand design, and visual storytelling.
+                    </p>
+                    <p>
+                        Whether capturing high-stakes athletic moments or crafting custom brand graphics, 
+                        I bring energy, creativity, and precision to every project.
+                    </p>
+
+                    <h3>Highlights & Experience</h3>
+                    <ul class="special-list">
+                        <li>Worked as an intern for the  <strong>Dayton Dragons</strong>.</li>
+                        <li>Manages and curates content for the <strong>Monroe High School Volleyball Instagram</strong>.</li>
+                        <li>Specializes in custom athletic graphics, game day posts, and event flyers.</li>
+                        <li>Offers professional photography packages for sports action, senior portraits, and couples.</li>
+                    </ul>
+                </div>
+
+                <div class="about-image">
+                    <!-- ACCESSIBILITY: Meaningful and descriptive alt text -->
+                    <img src="brand.jpg" alt="Portrait of Kaileigh Schneberger, owner of Field and Frame Co.">
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. MENU / MY WORK SECTION -->
+        <section id="work" class="work-section container">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Featured creative offerings from Field & Frame Co.</p>
+
+            <!-- 3 Featured Work Cards -->
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="https://placehold.co/600x400/6A7350/FFFFFF?text=Sports+Photography" alt="Action shot of college sports game taken by Field and Frame Co.">
+                    <div class="card-body">
+                        <h3>Sports Media & Action</h3>
+                        <p>Dynamic game coverage, live action photography, and media day portraits tailored for athlete branding.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://placehold.co/600x400/ED9971/FFFFFF?text=Graphic+Design" alt="Custom athletic social media graphic design sample">
+                    <div class="card-body">
+                        <h3>Graphics & Branding</h3>
+                        <p>Custom game day graphics, social media templates, event flyers, and brand identity packages.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://placehold.co/600x400/E2CAB3/2C3A2E?text=Portrait+Sessions" alt="Outdoor senior portrait photography session in Oxford, Ohio">
+                    <div class="card-body">
+                        <h3>Portraits & Lifestyle</h3>
+                        <p>Memorable senior portraits, couple sessions, and lifestyle photography shot on location in Oxford, OH.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HTML Table displaying services menu -->
+            <h3 class="table-heading">Service Pricing & Details</h3>
+            <div class="table-responsive">
+                <table class="services-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Item / Service</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Scope / Size</th>
+                            <th scope="col" class="price-col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sports Action Coverage</td>
+                            <td>Full game coverage with high-res digital downloads for athletes or teams.</td>
+                            <td>Full Game</td>
+                            <td class="price-col">$175</td>
+                        </tr>
+                        <tr>
+                            <td>Senior Portrait Session</td>
+                            <td>Custom outdoor portrait session with multiple outfit changes.</td>
+                            <td>30 Mins / 40+ Photos</td>
+                            <td class="price-col">$200</td>
+                        </tr>
+                        <tr>
+                            <td>Couples & Lifestyle Session</td>
+                            <td>Story-driven lifestyle session in Hamilton, OH or nearby locations.</td>
+                            <td>1 Hour / 40+ Photos</td>
+                            <td class="price-col">$175</td>
+                        </tr>
+                        <tr>
+                            <td>Game Day Social Graphics</td>
+                            <td>High-impact graphic templates designed for athletic team social accounts.</td>
+                            <td>Set of 3 Graphics</td>
+                            <td class="price-col">$90</td>
+                        </tr>
+                        <tr>
+                            <td>Custom Logo Design</td>
+                            <td>Primary logo, secondary mark, and color palette creation for small businesses.</td>
+                            <td>Full Package</td>
+                            <td class="price-col">$250</td>
+                        </tr>
+                        <tr>
+                            <td>Event Flyer & Poster Design</td>
+                            <td>Custom print-ready and digital promotional flyers for events or fundraisers.</td>
+                            <td>1 Design Concept</td>
+                            <td class="price-col">$60</td>
+                        </tr>
+                        <tr>
+                            <td>Team Media Day Photos</td>
+                            <td>Roster headshots, team photo, and individual digital graphics.</td>
+                            <td>Half Day Session</td>
+                            <td class="price-col">$300</td>
+                        </tr>
+                        <tr>
+                            <td>Social Media Branding Kit</td>
+                            <td>Instagram story templates, highlight covers, and grid layout designs.</td>
+                            <td>Full Kit</td>
+                            <td class="price-col">$250</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             NEW SECTION: 4. CUSTOMER REVIEWS / TESTIMONIALS
+             ========================================================= -->
+        <section id="reviews" class="reviews-section container">
+            <h2 class="section-title">Customer Reviews</h2>
+            <p class="section-subtitle">What local clients, student athletes, and coffee lovers are saying.</p>
+
+            <div class="reviews-grid">
+                <!-- Testimonial Card 1 -->
+                <div class="review-card">
+                    <div class="star-rating" aria-label="Rating: 5 out of 5 stars">★★★★★</div>
+                    <blockquote class="review-quote">
+                        "Kaileigh took my senior portraits around Uptown Oxford and they turned out incredible! She made me feel so comfortable in front of the camera."
+                    </blockquote>
+                    <div class="reviewer-info">
+                        <h3>Maya</h3>
+                        <p class="reviewer-role">Biology major, Miami University</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial Card 2 -->
+                <div class="review-card">
+                    <div class="star-rating" aria-label="Rating: 5 out of 5 stars">★★★★★</div>
+                    <blockquote class="review-quote">
+                        "Field & Frame Co. redesigned our athletic graphics for the season. The game day posts were professional and boosted our social engagement!"
+                    </blockquote>
+                    <div class="reviewer-info">
+                        <h3>Coach Miller</h3>
+                        <p class="reviewer-role">Monroe High School Athletics</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial Card 3 -->
+                <div class="review-card">
+                    <div class="star-rating" aria-label="Rating: 5 out of 5 stars">★★★★★</div>
+                    <blockquote class="review-quote">
+                        "The best photography work on. Kaileigh is my go-to graphic designer and photographer."
+                    </blockquote>
+                    <div class="reviewer-info">
+                        <h3>Jordan</h3>
+                        <p class="reviewer-role">Sports Management student</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             5. VISIT US / CONTACT SECTION (UPDATED: 2-COLUMN LAYOUT & HOURS)
+             ========================================================= -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Visit Us & Get in Touch</h2>
+                <p class="section-subtitle">Contact me today to book your session or get a graphic!</p>
+
+                <!-- Desktop 2-Column Grid: Contact Info & Directions on Left, Hours Table on Right -->
+                <div class="contact-grid">
+                    
+                    <!-- Column 1: Contact Details & Get Directions Button -->
+                    <div class="contact-info">
+                        <h3>Kaileigh Schneberger</h3>
+                        <p class="studio-sub">Home of Field & Frame Co.</p>
+                        
+                        <p><strong>Address:</strong><br>
+                        123 High Street, Oxford, OH 45056</p>
+                        
+                        <p><strong>Phone:</strong><br>
+                        <a href="tel:5138080361">(513) 808-0361</a></p>
+                        
+                        <p><strong>Email:</strong><br>
+                        <a href="mailto:fieldandframe2@gmail.com" class="email-link">fieldandframe2@gmail.com</a></p>
+
+                        <!-- Embedded Get Directions Button linking directly to Google Maps -->
+                        <div class="action-button-box">
+                            <a href="https://maps.google.com/?q=Oxford,OH" target="_blank" rel="noopener noreferrer" class="btn btn-directions">
+                                Get Directions ↗
+                            </a>
+                        </div>
+
+                        <div class="social-links">
+                            <strong>Social Media:</strong><br>
+                            <a href="https://www.instagram.com/field.frame.co/" target="_blank" rel="noopener noreferrer">Instagram</a> | 
+                            <a href="https://www.facebook.com/profile.php?id=61591964331589" target="_blank" rel="noopener noreferrer">Facebook</a>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Opening Hours Table -->
+                    <div class="hours-box">
+                        <h3>Opening Hours</h3>
+                        <p class="hours-sub">Stop in for coffee, creative meetings, or media consultations.</p>
+                        
+                        <div class="table-responsive">
+                            <table class="hours-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Day</th>
+                                        <th scope="col">Hours</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Monday – Friday</td>
+                                        <td>10:00 AM – 8:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Saturday</td>
+                                        <td>8:00 AM – 8:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sunday</td>
+                                        <td>CLOSED</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =========================================================
+         BACK TO TOP BUTTON
+         ========================================================= -->
+    <!-- Small circular button linking back to top of page -->
+    <a href="#top" class="back-to-top" aria-label="Back to top of page">↑</a>
+
+    <!-- =========================================================
+         FOOTER (REDESIGNED: 3-COLUMN ESPRESSO LAYOUT)
+         ========================================================= -->
+    <footer class="site-footer" aria-label="Site Footer">
+        <div class="container">
+            <!-- 3-Column Footer Grid -->
+            <div class="footer-grid">
+                
+                <!-- Footer Column 1: Shop Info -->
+                <div class="footer-col">
+                    <h3 class="footer-heading">Kaileigh Schneberger</h3>
+                    <p class="footer-tagline">Field & Frame Co.</p>
+                    <p>My profolio and experinces. </p>
+                </div>
+
+                <!-- Footer Column 2: Quick Links -->
+                <div class="footer-col">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work">My Work</a></li>
+                        <li><a href="#reviews">Customer Reviews</a></li>
+                        <li><a href="#contact">Visit Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Column 3: Social Links & Contact -->
+                <div class="footer-col">
+                    <h3 class="footer-heading">Connect With Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                        <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                        <li><a href="mailto:kaileigh@fieldandframe.com">Email Us</a></li>
+                        <li><a href="https://maps.google.com/?q=Oxford,OH" target="_blank" rel="noopener noreferrer">Google Maps</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom Line -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kaileigh Schneberger. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
